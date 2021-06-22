@@ -44,12 +44,7 @@ target_compile_options(commongWarnings
     INTERFACE "-Wno-missing-braces"
     INTERFACE "-Werror"
     INTERFACE "-Wno-deprecated" # only because apple deprecated tons of things
-    INTERFACE "-fsanitize=address"
-    INTERFACE "-fno-omit-frame-pointer")
-
-target_link_options(commongWarnings
-	INTERFACE "-fsanitize=address"
-    INTERFACE "-fno-omit-frame-pointer")
+    )
 
 
 target_include_directories(TwoClocks PRIVATE include)
