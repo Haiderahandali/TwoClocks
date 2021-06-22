@@ -27,7 +27,7 @@ Uint32 counter = 0;
 char FONT_PATH[100];
 char BG_PATH[100];
 char CLOCK_BG_PATH[100];
-char AUDIO_PATH[100];
+char AUDIO_PATH[100] = "/Users/alia/dev/TwoClocks/./assets/alarmMusic.mp3";
 
 bool IS_RUNNING
     = true;
@@ -68,12 +68,12 @@ bool init()
     gClockOneTimer = FIRST_CLOCK_TIME;
     gClockTwoTimer = SECND_CLOCK_TIME;
 
-    LoadBMPS();
     ConstuctPaths(AUDIO_PATH,
         CLOCK_BG_PATH,
         BG_PATH,
         FONT_PATH);
 
+    LoadBMPS();
     return true;
 }
 

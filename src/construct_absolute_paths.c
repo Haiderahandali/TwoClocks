@@ -22,23 +22,24 @@ void appendTwoStrings(char* dest, char* source)
 //gets the length of path right after `/` so if your exe is at /bin/bash, this function should return 4; / b i n
 int GetExeDirLength(char* path, int length)
 {
-    while (path[--length] != '/')
-        if (!length)
-            return 0;
+    for (int i = 0; i < 3; ++i)
+    {
+        while (path[--length] != '/')
+            if (!length)
+                return 0;
+    }
 
-    if (path[length] == '.')
-        return --length;
-    else
-        return length;
+    return length;
 }
 void CopyStrings(char* dest, char* source)
 
 {
+
     while (*source)
     {
         *dest++ = *source++;
     }
-    *(++dest) = '\0';
+    *(dest) = *source;
 }
 void ConstuctPaths(char* audioPath,
     char* clockBackgroundPath,
@@ -46,13 +47,13 @@ void ConstuctPaths(char* audioPath,
     char* fontPath)
 {
 
-    char* font      = "/../../assets/Green_FontMap.bmp";
-    char* clockbg   = "/../../assets/Clock_BG.bmp";
-    char* appBg     = "/../../assets/relax_bg.bmp";
-    char* audiopath = "/../../assets/alarmMusic.mp3";
+    char* font      = "/assets/Green_FontMap.bmp";
+    char* clockbg   = "/assets/Clock_BG.bmp";
+    char* appBg     = "/assets/relax_bg.bmp";
+    char* audiopath = "/assets/clockAlarm.mp3";
 
     int const bufsize = 512;
-    char fullExecutablePath[512];
+    char fullExecutablePath[bufsize];
     _NSGetExecutablePath(fullExecutablePath, &bufsize);
     int pathCharCount      = StringLength(fullExecutablePath);
     int executableDirIndex = GetExeDirLength(fullExecutablePath, pathCharCount);
@@ -76,10 +77,4 @@ void ConstuctPaths(char* audioPath,
     CopyStrings(temp, fullExecutablePath);
     appendTwoStrings(temp, audiopath);
     CopyStrings(audioPath, temp);
-
-    __builtin_printf("audio path %s\n"
-                     "clockBackgroundPath %s\n"
-                     "fontPath %s\n"
-                     " appBg Path %s \n",
-        audioPath, clockBackgroundPath, fontPath, appBackGroundPath);
 }

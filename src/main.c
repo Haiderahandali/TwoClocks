@@ -12,8 +12,8 @@ int main(int argc, char* argv[])
     }
     else
     {
-        FIRST_CLOCK_TIME = 50;
-        SECND_CLOCK_TIME = 50;
+        FIRST_CLOCK_TIME = 14;
+        SECND_CLOCK_TIME = 20;
     }
 
     if (!init())
