@@ -1,7 +1,9 @@
 ![alt text](assets/background.png)
 
 # TwoClocks
-During my studies, I always find myself in a need to take breaks every certain period, it takes the time for each clock via command line args (see build)
+
+During my studies, I always find myself in a need to take breaks every certain period, it takes the time for each clock via command line args (see build) MacOS only
+
 and I was interested in taking this as a project.
 The aim was to use as less as possible libraries and headers with pure C, sadly I had to use objc to run audio (casting objc code to pure C is doable via objc_sendMsg, however it is un-maintainable, and super buggy)
 
