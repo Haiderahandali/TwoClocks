@@ -3,7 +3,7 @@
 #define PATH_BUFFER_SIZE 100
 #define ABSOLUTE_PATH_BUFFER_SIZE 512
 
-int StringLength(char const* path)  // use strlen
+int StringLength(char const* path) // use strlen
 {
     int length = 0;
     while (*path++)
@@ -13,7 +13,7 @@ int StringLength(char const* path)  // use strlen
     return length;
 }
 
-void AppendTwoStrings(char* dest, char const* source)  // user strcat
+void AppendTwoStrings(char* dest, char const* source) // user strcat
 {
     int srcStrLength = StringLength(dest);
     while (*source)
@@ -42,7 +42,7 @@ int GetExeDirLength(char const* path, int length)
     return length;
 }
 
-void CopyStrings(char* dest, char const* source)  // use strcpy
+void CopyStrings(char* dest, char const* source) // use strcpy
 {
     while (*source)
     {

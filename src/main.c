@@ -19,6 +19,7 @@ int main(int argc, char* argv[])
     if (!init())
     {
         SDL_Log("couldn't init the app terminating..\n");
+        return -1;
     }
 
     while (IS_RUNNING)
