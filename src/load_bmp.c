@@ -53,16 +53,15 @@ void ReadBMP(bmp_file_t* bmp, char const* pathToFile)
 
     if (bmp->height > 0) // if it is positive then flip it becuase that means the bmp is stored bottom up
     {
-        typedef unsigned char BYTE;
 
         int pitch = bmp->width * bmp->bpp / 8;
         for (int row = 0; row < bmp->height >> 1; ++row)
         {
-            BYTE* row1 = bmp->pixelDataPointer + (row * pitch);
-            BYTE* row2 = bmp->pixelDataPointer + ((bmp->height - 1 - row) * pitch);
+            byte* row1 = bmp->pixelDataPointer + (row * pitch);
+            byte* row2 = bmp->pixelDataPointer + ((bmp->height - 1 - row) * pitch);
             for (int col = 0; col < bmp->width * bmp->bpp / 8; ++col)
             {
-                BYTE tmp  = row1[col];
+                byte tmp  = row1[col];
                 row1[col] = row2[col];
                 row2[col] = tmp;
             }

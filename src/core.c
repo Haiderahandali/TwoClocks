@@ -7,11 +7,13 @@
 #define PATH_BUFFER_SIZE 100
 
 //Gets initalised in init()
-SDL_Surface* gWindowSurface;
 SDL_Window* gWindow;
+
+SDL_Surface* gWindowSurface;
 SDL_Surface* gFontSurface;
-SDL_Surface* gBackgroundSurface;
 SDL_Surface* gClockBgSurface;
+
+static SDL_Surface* gBackgroundSurface = NULL;
 
 Uint32 start;
 Uint32 previousTime;
@@ -24,10 +26,10 @@ static bool useClockOne = true;
 static Uint32 delay   = 20; //50 FPS
 static Uint32 counter = 0;
 
-char gFontPath[PATH_BUFFER_SIZE];
-char gBackgroundPath[PATH_BUFFER_SIZE];
-char gClockBackgroundPath[PATH_BUFFER_SIZE];
-char gAudioPath[PATH_BUFFER_SIZE];
+static char gBackgroundPath[PATH_BUFFER_SIZE];
+static char gFontPath[PATH_BUFFER_SIZE];
+static char gClockBackgroundPath[PATH_BUFFER_SIZE];
+static char gAudioPath[PATH_BUFFER_SIZE];
 
 bool IS_RUNNING = true;
 
@@ -101,6 +103,10 @@ void Render()
 void CloseApp()
 {
     SDL_DestroyWindow(gWindow);
+    SDL_FreeSurface(gFontSurface);
+    SDL_FreeSurface(gClockBgSurface);
+    SDL_FreeSurface(gBackgroundSurface);
+
     gWindow        = NULL;
     gWindowSurface = NULL;
 }

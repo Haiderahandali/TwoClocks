@@ -5,7 +5,6 @@
 #define SDL_SUCCESS 0
 #define FAILED_TO_INIT_WINDOW NULL
 #define FAILED_TO_GET_WINDOW_SURFACE NULL
-#define WHITE 0XFFFFFFFF
 
 int FIRST_CLOCK_TIME;
 int SECND_CLOCK_TIME;
@@ -21,7 +20,6 @@ typedef enum
 extern SDL_Window* gWindow;
 
 extern SDL_Surface* gWindowSurface;
-extern SDL_Surface* gBackgroundSurface;
 extern SDL_Surface* gFontSurface;
 extern SDL_Surface* gClockBgSurface;
 
