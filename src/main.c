@@ -7,13 +7,13 @@ int main(int argc, char* argv[])
 {
     if (argc == 3)
     {
-        FIRST_CLOCK_TIME = ConvertStringToInt(argv[1]);
-        SECND_CLOCK_TIME = ConvertStringToInt(argv[2]);
+        gFirstClockTime  = ConvertStringToInt(argv[1]);
+        gSecondClockTime = ConvertStringToInt(argv[2]);
     }
     else
     {
-        FIRST_CLOCK_TIME = 14;
-        SECND_CLOCK_TIME = 20;
+        gFirstClockTime  = 14;
+        gSecondClockTime = 20;
     }
 
     if (!init())

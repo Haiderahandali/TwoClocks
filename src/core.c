@@ -65,8 +65,8 @@ bool init()
     start        = SDL_GetTicks(); //initalise the time of our app
     previousTime = start;
 
-    gClockOneTimer = FIRST_CLOCK_TIME;
-    gClockTwoTimer = SECND_CLOCK_TIME;
+    gClockOneTimer = gFirstClockTime;
+    gClockTwoTimer = gSecondClockTime;
 
     ConstuctPaths(gAudioPath,
         gClockBackgroundPath,
@@ -154,7 +154,7 @@ void UpdateTimeInSeconds(void)
             if (--gClockOneTimer < 1)
             {
                 useClockOne    = false;
-                gClockOneTimer = FIRST_CLOCK_TIME;
+                gClockOneTimer = gFirstClockTime;
                 PlayAlarm(gAudioPath);
             }
         }
@@ -163,7 +163,7 @@ void UpdateTimeInSeconds(void)
             if (--gClockTwoTimer < 1)
             {
                 useClockOne    = true;
-                gClockTwoTimer = SECND_CLOCK_TIME;
+                gClockTwoTimer = gSecondClockTime;
                 PlayAlarm(gAudioPath);
             }
         }

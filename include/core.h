@@ -6,8 +6,8 @@
 #define FAILED_TO_INIT_WINDOW NULL
 #define FAILED_TO_GET_WINDOW_SURFACE NULL
 
-extern int FIRST_CLOCK_TIME;
-extern int SECND_CLOCK_TIME;
+int gFirstClockTime;
+int gSecondClockTime;
 #define SCREEN_WIDTH 640
 #define SCREEN_HEIGHT 480
 

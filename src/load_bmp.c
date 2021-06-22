@@ -1,7 +1,8 @@
 #include "load_bmp.h"
+#include <stdlib.h>
 #include <stdio.h>
 
-void* malloc(size_t size);
+// void* malloc(size_t size); not a good idea to have malloc prototype
 
 void ReadBMP(bmp_file_t* bmp, char const* pathToFile)
 {
