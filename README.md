@@ -29,6 +29,7 @@ cd TwoClocks
 git submodule init 
 git submodule update
 cmake -G "Ninja Multi-Config" -B build .
+cmake --build build/ --config Debug
 ```
 
 
