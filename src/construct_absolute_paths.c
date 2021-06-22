@@ -3,7 +3,7 @@
 #define PATH_BUFFER_SIZE 100
 #define ABSOLUTE_PATH_BUFFER_SIZE 512
 
-int StringLength(char const* path)
+int StringLength(char const* path)  // use strlen
 {
     int length = 0;
     while (*path++)
@@ -13,7 +13,7 @@ int StringLength(char const* path)
     return length;
 }
 
-void AppendTwoStrings(char* dest, char const* source)
+void AppendTwoStrings(char* dest, char const* source)  // user strcat
 {
     int srcStrLength = StringLength(dest);
     while (*source)
@@ -41,7 +41,8 @@ int GetExeDirLength(char const* path, int length)
 
     return length;
 }
-void CopyStrings(char* dest, char const* source)
+
+void CopyStrings(char* dest, char const* source)  // use strcpy
 {
     while (*source)
     {
@@ -49,12 +50,13 @@ void CopyStrings(char* dest, char const* source)
     }
     *(dest) = *source;
 }
-void ConstuctPaths(char* audioPath,
+
+void ConstuctPaths(
+    char* audioPath,
     char* clockBackgroundPath,
     char* appBackGroundPath,
     char* fontPath)
 {
-
     char const* const font      = "/assets/Green_FontMap.bmp";
     char const* const clockbg   = "/assets/Clock_BG.bmp";
     char const* const appBg     = "/assets/relax_bg.bmp";

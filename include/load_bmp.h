@@ -27,8 +27,8 @@ enum //offset in hexadecimal
     BMP_HEIGHT_OFFSET         = 0X16,
     BMP_BITS_PER_PIXEL_OFFSET = 0X1C,
     BMP_COMPRESSION_OFFSET    = 0X1E,
-
 };
+
 enum //sizes in BYTE
 {
     BMP_SIGNATURE_SIZE              = 2,
@@ -48,7 +48,6 @@ typedef struct bmp_file_t
     uint32_t dataOffset;
     uint8_t compression;
     byte* pixelDataPointer;
-
 } bmp_file_t;
 
 void ReadBMP(bmp_file_t* bmp, char const* pathToFile);

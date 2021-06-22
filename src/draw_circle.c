@@ -1,5 +1,5 @@
 /*
-This file was used to draw Circles around Text, however, 
+This file was used to draw Circles around Text, however,
 I moved to using bitmaps so it is no longer used,
 however I keep it since I wrote mid-point algorithm in it
 */
@@ -17,7 +17,6 @@ void DrawPixel(int x, int y)
 //https://www.bu.edu.eg/portal/uploads/Computers%20and%20Informatics/Computer%20Science/4899/crs-12417/Files/Midpoint%20Circle%20Algorithm.pdf
 void DrawCircle(int Cx, int Cy, int Radius)
 {
-
     int X = -Radius;
     int Y = 0;
 
@@ -53,6 +52,7 @@ void DrawCircle(int Cx, int Cy, int Radius)
         }
     }
 }
+
 void DrawDisk(int x, int y, int radius)
 {
     for (int currentCircle = 0; currentCircle < radius; ++currentCircle)

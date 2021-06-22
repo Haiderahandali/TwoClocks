@@ -1,23 +1,23 @@
 cmake_minimum_required(VERSION 3.18)
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON) #for intellisense 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON) #for intellisense
 
 
 project(TwoClocks VERSION 0.1.0)
 
-if( NOT APPLE)
-message("Error, currenly only mac is supported")
-return()
+if(NOT APPLE)
+    message("Error, currenly only mac is supported")
+    return()
 endif()
 
 
-if(${CMAKE_VERSION} VERSION_LESS "3.18.0") 
+if(${CMAKE_VERSION} VERSION_LESS "3.18.0")
     message("Please consider to switch to CMake 3.18.0")
 endif()
 
 add_subdirectory(vendor/SDL)
 
-add_executable(TwoClocks 
-	src/main.c 
+add_executable(TwoClocks
+	src/main.c
 	src/glyph.c
 	src/load_bmp.c
 	src/print_time.c
@@ -31,7 +31,7 @@ add_executable(TwoClocks
 add_library(commongWarnings INTERFACE)
 
 target_compile_options(commongWarnings
-	INTERFACE "-Wall" 
+	INTERFACE "-Wall"
     INTERFACE "-Wextra"
     INTERFACE "-pedantic"
     INTERFACE "-Wconversion"
@@ -39,18 +39,18 @@ target_compile_options(commongWarnings
     INTERFACE "-Wunused"
     INTERFACE "-Wshadow"
     INTERFACE "-Wold-style-cast"
-    INTERFACE "-Wpointer-arith" 
+    INTERFACE "-Wpointer-arith"
     INTERFACE "-Wmissing-prototypes"
     INTERFACE "-Wno-missing-braces"
     INTERFACE "-Werror"
     INTERFACE "-Wno-deprecated"
-    INTERFACE "-fsanitize=address" 
+    INTERFACE "-fsanitize=address"
     INTERFACE "-fno-omit-frame-pointer" # only because apple deprecated tons of things
-    )
+)
 
 target_link_options(commongWarnings
 
-	INTERFACE "-fsanitize=address" 
+	INTERFACE "-fsanitize=address"
     INTERFACE "-fno-omit-frame-pointer")
 
 
@@ -58,13 +58,13 @@ target_include_directories(TwoClocks PRIVATE include)
 target_include_directories(TwoClocks PRIVATE ${SDL2_INCLUDE_DIR})
 
 
-target_link_libraries(TwoClocks 
+target_link_libraries(TwoClocks
 	PRIVATE SDL2main
 	PRIVATE SDL2
 	PRIVATE "-framework AppKit" #for playing Audio
 	PRIVATE commongWarnings
-	)
-	
+)
+
 set_target_properties(TwoClocks PROPERTIES
 	RUNTIME_OUTPUT_DIRECTORY_DEBUG    ${CMAKE_CURRENT_LIST_DIR}/bin/Debug
 	RUNTIME_OUTPUT_DIRECTORY_RELEASE  ${CMAKE_CURRENT_LIST_DIR}/bin/Release
@@ -72,9 +72,9 @@ set_target_properties(TwoClocks PROPERTIES
 	LIBRARY_OUTPUT_DIRECTORY_RELEASE  ${CMAKE_CURRENT_LIST_DIR}/bin/Release
 	ARCHIVE_OUTPUT_DIRECTORY_DEBUG    ${CMAKE_CURRENT_LIST_DIR}/bin/Debug
 	ARCHIVE_OUTPUT_DIRECTORY_RELEASE  ${CMAKE_CURRENT_LIST_DIR}/bin/Release
+	C_STANDARD 99
+)
 
-	C_STANDARD 99)
-	
 
 
 
@@ -84,6 +84,7 @@ set(copyDest ${CMAKE_CURRENT_LIST_DIR})
 add_custom_command(TARGET TwoClocks
 	POST_BUILD
 	COMMAND cp ${copySource} ${copyDest}
-	COMMENT "Copying ${copySource} to the ${copyDest}")
+	COMMENT "Copying ${copySource} to the ${copyDest}"
+)
 
 

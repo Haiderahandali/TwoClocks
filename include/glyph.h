@@ -22,7 +22,6 @@ enum
     GLYPH_NINE  = 9,
     GLYPH_COLON = 10,
     GLYPH_COUNT = 11
-
 };
 
 static const Uint8 glyphIndices[GLYPH_COUNT] = {
@@ -37,7 +36,7 @@ static const Uint8 glyphIndices[GLYPH_COUNT] = {
     GLYPH_EIGHT,
     GLYPH_NINE,
     GLYPH_COLON,
-
 };
+
 void PutGlyphOnSurface(SDL_Surface* destSurface, Uint8 glyphIndex, SDL_Rect destRect);
 #endif
