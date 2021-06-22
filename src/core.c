@@ -4,6 +4,8 @@
 #include "print_time.h"
 #include "construct_absolute_paths.h"
 
+#define PATH_BUFFER_SIZE 100
+
 //Gets initalised in init()
 SDL_Surface* gWindowSurface;
 SDL_Window* gWindow;
@@ -11,8 +13,6 @@ SDL_Surface* gFontSurface;
 SDL_Surface* gBackgroundSurface;
 SDL_Surface* gClockBgSurface;
 
-Uint32 bgColor;
-Uint32 glyphColor;
 Uint32 start;
 Uint32 previousTime;
 
@@ -21,16 +21,15 @@ int gClockOneTimer;
 
 static bool useClockOne = true;
 
-Uint32 delay   = 20; //50 FPS
-Uint32 counter = 0;
+static Uint32 delay   = 20; //50 FPS
+static Uint32 counter = 0;
 
-char FONT_PATH[100];
-char BG_PATH[100];
-char CLOCK_BG_PATH[100];
-char AUDIO_PATH[100] = "/Users/alia/dev/TwoClocks/./assets/alarmMusic.mp3";
+char gFontPath[PATH_BUFFER_SIZE];
+char gBackgroundPath[PATH_BUFFER_SIZE];
+char gClockBackgroundPath[PATH_BUFFER_SIZE];
+char gAudioPath[PATH_BUFFER_SIZE];
 
-bool IS_RUNNING
-    = true;
+bool IS_RUNNING = true;
 
 bool init()
 {
@@ -59,19 +58,16 @@ bool init()
         return false;
     }
 
-    bgColor = SDL_MapRGBA(gWindowSurface->format, 184, 219, 239, 0XFF); //white Bg
-
     start        = SDL_GetTicks(); //initalise the time of our app
     previousTime = start;
-    glyphColor   = SDL_MapRGBA(gWindowSurface->format, 0X00, 0X00, 0X00, 0XFF); // text color is black
 
     gClockOneTimer = FIRST_CLOCK_TIME;
     gClockTwoTimer = SECND_CLOCK_TIME;
 
-    ConstuctPaths(AUDIO_PATH,
-        CLOCK_BG_PATH,
-        BG_PATH,
-        FONT_PATH);
+    ConstuctPaths(gAudioPath,
+        gClockBackgroundPath,
+        gBackgroundPath,
+        gFontPath);
 
     LoadBMPS();
     return true;
@@ -93,7 +89,6 @@ void Render()
 {
     //clear the background to the white color
 
-    // SDL_FillRect(gWindowSurface, NULL, bgColor);
     SDL_BlitSurface(gBackgroundSurface, NULL, gWindowSurface, NULL);
 
     SDL_Rect ClockOneRect = { 70, 245, GLYPH_WIDTH, GLYPH_HEIGHT };
@@ -144,7 +139,7 @@ void UpdateTimeInSeconds(void)
             {
                 useClockOne    = false;
                 gClockOneTimer = FIRST_CLOCK_TIME;
-                PlayAlarm();
+                PlayAlarm(gAudioPath);
             }
         }
         else
@@ -153,7 +148,7 @@ void UpdateTimeInSeconds(void)
             {
                 useClockOne    = true;
                 gClockTwoTimer = SECND_CLOCK_TIME;
-                PlayAlarm();
+                PlayAlarm(gAudioPath);
             }
         }
     }
@@ -166,9 +161,9 @@ void LoadBMPS()
     bmp_file_t bmpBg;
     bmp_file_t bmpClockBG;
 
-    ReadBMP(&bmpFont, FONT_PATH);
-    ReadBMP(&bmpBg, BG_PATH);
-    ReadBMP(&bmpClockBG, CLOCK_BG_PATH);
+    ReadBMP(&bmpFont, gFontPath);
+    ReadBMP(&bmpBg, gBackgroundPath);
+    ReadBMP(&bmpClockBG, gClockBackgroundPath);
 
     gFontSurface = SDL_CreateRGBSurfaceFrom(bmpFont.pixelDataPointer,
         (int)bmpFont.width, (int)bmpFont.height, (int)bmpFont.bpp,

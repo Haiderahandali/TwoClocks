@@ -1,14 +1,19 @@
 #include "construct_absolute_paths.h"
 
-int StringLength(char* path)
+#define PATH_BUFFER_SIZE 100
+#define ABSOLUTE_PATH_BUFFER_SIZE 512
+
+int StringLength(char const* path)
 {
     int length = 0;
     while (*path++)
+    {
         ++length;
+    }
     return length;
 }
 
-void appendTwoStrings(char* dest, char* source)
+void AppendTwoStrings(char* dest, char const* source)
 {
     int srcStrLength = StringLength(dest);
     while (*source)
@@ -18,23 +23,26 @@ void appendTwoStrings(char* dest, char* source)
 
     dest[srcStrLength] = *source;
 }
-/*       1 2 3 4     */
-//gets the length of path right after `/` so if your exe is at /bin/bash, this function should return 4; / b i n
-int GetExeDirLength(char* path, int length)
+
+int GetExeDirLength(char const* path, int length)
 {
+    //the path is usually /someDir/projectDir/bin/Debug/App
+    //so we need to get the projectDir by removing 3 '/'
     for (int i = 0; i < 3; ++i)
     {
         while (path[--length] != '/')
+        {
             if (!length)
+            {
                 return 0;
+            }
+        }
     }
 
     return length;
 }
-void CopyStrings(char* dest, char* source)
-
+void CopyStrings(char* dest, char const* source)
 {
-
     while (*source)
     {
         *dest++ = *source++;
@@ -47,12 +55,12 @@ void ConstuctPaths(char* audioPath,
     char* fontPath)
 {
 
-    char* font      = "/assets/Green_FontMap.bmp";
-    char* clockbg   = "/assets/Clock_BG.bmp";
-    char* appBg     = "/assets/relax_bg.bmp";
-    char* audiopath = "/assets/clockAlarm.mp3";
+    char const* const font      = "/assets/Green_FontMap.bmp";
+    char const* const clockbg   = "/assets/Clock_BG.bmp";
+    char const* const appBg     = "/assets/relax_bg.bmp";
+    char const* const audiopath = "/assets/clockAlarm.mp3";
 
-    int bufsize = 512;
+    int bufsize = ABSOLUTE_PATH_BUFFER_SIZE;
     char fullExecutablePath[bufsize];
     _NSGetExecutablePath(fullExecutablePath, &bufsize);
     int pathCharCount      = StringLength(fullExecutablePath);
@@ -60,21 +68,21 @@ void ConstuctPaths(char* audioPath,
 
     fullExecutablePath[executableDirIndex] = '\0';
 
-    char temp[100];
+    char temp[PATH_BUFFER_SIZE];
 
     CopyStrings(temp, fullExecutablePath);
-    appendTwoStrings(temp, font);
+    AppendTwoStrings(temp, font);
     CopyStrings(fontPath, temp);
 
     CopyStrings(temp, fullExecutablePath);
-    appendTwoStrings(temp, clockbg);
+    AppendTwoStrings(temp, clockbg);
     CopyStrings(clockBackgroundPath, temp);
 
     CopyStrings(temp, fullExecutablePath);
-    appendTwoStrings(temp, appBg);
+    AppendTwoStrings(temp, appBg);
     CopyStrings(appBackGroundPath, temp);
 
     CopyStrings(temp, fullExecutablePath);
-    appendTwoStrings(temp, audiopath);
+    AppendTwoStrings(temp, audiopath);
     CopyStrings(audioPath, temp);
 }

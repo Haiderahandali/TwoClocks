@@ -1,122 +1,122 @@
 [
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/main.c.o -c /Users/alia/dev/TwoClocks/src/main.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/main.c.o -c /Users/alia/dev/TwoClocks/src/main.c",
   "file": "/Users/alia/dev/TwoClocks/src/main.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/glyph.c.o -c /Users/alia/dev/TwoClocks/src/glyph.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/glyph.c.o -c /Users/alia/dev/TwoClocks/src/glyph.c",
   "file": "/Users/alia/dev/TwoClocks/src/glyph.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/load_bmp.c.o -c /Users/alia/dev/TwoClocks/src/load_bmp.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/load_bmp.c.o -c /Users/alia/dev/TwoClocks/src/load_bmp.c",
   "file": "/Users/alia/dev/TwoClocks/src/load_bmp.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/print_time.c.o -c /Users/alia/dev/TwoClocks/src/print_time.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/print_time.c.o -c /Users/alia/dev/TwoClocks/src/print_time.c",
   "file": "/Users/alia/dev/TwoClocks/src/print_time.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/core.c.o -c /Users/alia/dev/TwoClocks/src/core.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/core.c.o -c /Users/alia/dev/TwoClocks/src/core.c",
   "file": "/Users/alia/dev/TwoClocks/src/core.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/convert_string_to_int.c.o -c /Users/alia/dev/TwoClocks/src/convert_string_to_int.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/convert_string_to_int.c.o -c /Users/alia/dev/TwoClocks/src/convert_string_to_int.c",
   "file": "/Users/alia/dev/TwoClocks/src/convert_string_to_int.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/audio.m.o -c /Users/alia/dev/TwoClocks/src/audio.m",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/audio.m.o -c /Users/alia/dev/TwoClocks/src/audio.m",
   "file": "/Users/alia/dev/TwoClocks/src/audio.m"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/construct_absolute_paths.c.o -c /Users/alia/dev/TwoClocks/src/construct_absolute_paths.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Debug\\\" -I../include -I../vendor/SDL2/include -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Debug/src/construct_absolute_paths.c.o -c /Users/alia/dev/TwoClocks/src/construct_absolute_paths.c",
   "file": "/Users/alia/dev/TwoClocks/src/construct_absolute_paths.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/main.c.o -c /Users/alia/dev/TwoClocks/src/main.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/main.c.o -c /Users/alia/dev/TwoClocks/src/main.c",
   "file": "/Users/alia/dev/TwoClocks/src/main.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/glyph.c.o -c /Users/alia/dev/TwoClocks/src/glyph.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/glyph.c.o -c /Users/alia/dev/TwoClocks/src/glyph.c",
   "file": "/Users/alia/dev/TwoClocks/src/glyph.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/load_bmp.c.o -c /Users/alia/dev/TwoClocks/src/load_bmp.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/load_bmp.c.o -c /Users/alia/dev/TwoClocks/src/load_bmp.c",
   "file": "/Users/alia/dev/TwoClocks/src/load_bmp.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/print_time.c.o -c /Users/alia/dev/TwoClocks/src/print_time.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/print_time.c.o -c /Users/alia/dev/TwoClocks/src/print_time.c",
   "file": "/Users/alia/dev/TwoClocks/src/print_time.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/core.c.o -c /Users/alia/dev/TwoClocks/src/core.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/core.c.o -c /Users/alia/dev/TwoClocks/src/core.c",
   "file": "/Users/alia/dev/TwoClocks/src/core.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/convert_string_to_int.c.o -c /Users/alia/dev/TwoClocks/src/convert_string_to_int.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/convert_string_to_int.c.o -c /Users/alia/dev/TwoClocks/src/convert_string_to_int.c",
   "file": "/Users/alia/dev/TwoClocks/src/convert_string_to_int.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/audio.m.o -c /Users/alia/dev/TwoClocks/src/audio.m",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/audio.m.o -c /Users/alia/dev/TwoClocks/src/audio.m",
   "file": "/Users/alia/dev/TwoClocks/src/audio.m"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/construct_absolute_paths.c.o -c /Users/alia/dev/TwoClocks/src/construct_absolute_paths.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"Release\\\" -I../include -I../vendor/SDL2/include -O3 -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/Release/src/construct_absolute_paths.c.o -c /Users/alia/dev/TwoClocks/src/construct_absolute_paths.c",
   "file": "/Users/alia/dev/TwoClocks/src/construct_absolute_paths.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/main.c.o -c /Users/alia/dev/TwoClocks/src/main.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/main.c.o -c /Users/alia/dev/TwoClocks/src/main.c",
   "file": "/Users/alia/dev/TwoClocks/src/main.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/glyph.c.o -c /Users/alia/dev/TwoClocks/src/glyph.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/glyph.c.o -c /Users/alia/dev/TwoClocks/src/glyph.c",
   "file": "/Users/alia/dev/TwoClocks/src/glyph.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/load_bmp.c.o -c /Users/alia/dev/TwoClocks/src/load_bmp.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/load_bmp.c.o -c /Users/alia/dev/TwoClocks/src/load_bmp.c",
   "file": "/Users/alia/dev/TwoClocks/src/load_bmp.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/print_time.c.o -c /Users/alia/dev/TwoClocks/src/print_time.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/print_time.c.o -c /Users/alia/dev/TwoClocks/src/print_time.c",
   "file": "/Users/alia/dev/TwoClocks/src/print_time.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/core.c.o -c /Users/alia/dev/TwoClocks/src/core.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/core.c.o -c /Users/alia/dev/TwoClocks/src/core.c",
   "file": "/Users/alia/dev/TwoClocks/src/core.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/convert_string_to_int.c.o -c /Users/alia/dev/TwoClocks/src/convert_string_to_int.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/convert_string_to_int.c.o -c /Users/alia/dev/TwoClocks/src/convert_string_to_int.c",
   "file": "/Users/alia/dev/TwoClocks/src/convert_string_to_int.c"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/audio.m.o -c /Users/alia/dev/TwoClocks/src/audio.m",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/audio.m.o -c /Users/alia/dev/TwoClocks/src/audio.m",
   "file": "/Users/alia/dev/TwoClocks/src/audio.m"
 },
 {
   "directory": "/Users/alia/dev/TwoClocks/build",
-  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -fsanitize=address -fno-omit-frame-pointer -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/construct_absolute_paths.c.o -c /Users/alia/dev/TwoClocks/src/construct_absolute_paths.c",
+  "command": "/Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -I../include -I../vendor/SDL2/include -O2 -g -DNDEBUG -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk -mmacosx-version-min=10.15 -Wall -Wextra -pedantic -Wconversion -Wcast-align -Wunused -Wshadow -Wold-style-cast -Wpointer-arith -Wmissing-prototypes -Wno-missing-braces -Werror -Wno-deprecated -std=gnu99 -o CMakeFiles/TwoClocks.dir/RelWithDebInfo/src/construct_absolute_paths.c.o -c /Users/alia/dev/TwoClocks/src/construct_absolute_paths.c",
   "file": "/Users/alia/dev/TwoClocks/src/construct_absolute_paths.c"
 },
 {

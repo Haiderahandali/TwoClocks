@@ -1,12 +1,12 @@
 #include <AppKit/AppKit.h>
 #include <Foundation/Foundation.h>
-extern char AUDIO_PATH[];
 
-void PlayAlarm(void);
 
-void PlayAlarm()
+void PlayAlarm(char* gAudioPath);
+
+void PlayAlarm(char* gAudioPath)
 {
-	NSString *audioPath = [[NSString alloc]initWithCString:AUDIO_PATH encoding:NSASCIIStringEncoding];
+	NSString *audioPath = [[NSString alloc]initWithCString:gAudioPath encoding:NSASCIIStringEncoding];
 	NSSound *sound = [[NSSound alloc] initWithContentsOfFile:audioPath  byReference:NO];
 
 	[sound play];

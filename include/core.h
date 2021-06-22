@@ -18,9 +18,6 @@ typedef enum
     true
 } bool;
 
-extern char FONT_PATH[];
-extern char BG_PATH[];
-
 extern SDL_Window* gWindow;
 
 extern SDL_Surface* gWindowSurface;
@@ -28,17 +25,7 @@ extern SDL_Surface* gBackgroundSurface;
 extern SDL_Surface* gFontSurface;
 extern SDL_Surface* gClockBgSurface;
 
-extern Uint32 bgColor;
-
 extern bool IS_RUNNING;
-
-extern Uint32 start;
-extern Uint32 delay;
-extern Uint32 counter;
-
-extern Uint32 glyphColor;
-
-extern int gClockOneTimer;
 
 bool init(void);
 void EventLoop(void);
@@ -50,6 +37,6 @@ void UpdateTimeInSeconds(void);
 
 void LoadBMPS(void);
 
-void PlayAlarm(void);
+void PlayAlarm(char* path);
 
 #endif

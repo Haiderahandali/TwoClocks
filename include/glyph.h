@@ -6,7 +6,6 @@
 #define GLYPH_HEIGHT 70
 #define GLYPHS_PER_ROW 10
 
-extern Uint32 bgColor;
 extern SDL_Surface* gFontSurface;
 
 enum
