@@ -14,7 +14,7 @@ if(${CMAKE_VERSION} VERSION_LESS "3.18.0")
     message("Please consider to switch to CMake 3.18.0")
 endif()
 
-add_subdirectory(vendor/SDL2)
+add_subdirectory(vendor/SDL)
 
 add_executable(TwoClocks 
 	src/main.c 
@@ -43,8 +43,15 @@ target_compile_options(commongWarnings
     INTERFACE "-Wmissing-prototypes"
     INTERFACE "-Wno-missing-braces"
     INTERFACE "-Werror"
-    INTERFACE "-Wno-deprecated" # only because apple deprecated tons of things
+    INTERFACE "-Wno-deprecated"
+    INTERFACE "-fsanitize=address" 
+    INTERFACE "-fno-omit-frame-pointer" # only because apple deprecated tons of things
     )
+
+target_link_options(commongWarnings
+
+	INTERFACE "-fsanitize=address" 
+    INTERFACE "-fno-omit-frame-pointer")
 
 
 target_include_directories(TwoClocks PRIVATE include)

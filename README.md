@@ -26,6 +26,8 @@ might not be optimal but I love to have some standrisation in naming
 ```
 git clone https://github.com/Haiderahandali/TwoClocks.git
 cd TwoClocks
+git submodule init 
+git submodule update
 cmake -G "Ninja Multi-Config" -B build .
 ```
 
