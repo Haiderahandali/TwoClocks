@@ -1,0 +1,8 @@
+/build
+/SDL2
+/.DS_store
+/.cache
+/cmake-build-debug
+/.idea
+/bin
+/vendor

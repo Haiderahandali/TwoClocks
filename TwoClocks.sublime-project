@@ -1,0 +1,60 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			 "folder_exclude_patterns": ["SDL2",
+			 	".*",
+			 	"build",
+			 	"cmake-build-debug"],
+			 "file_exclude_patterns":[
+			 	"*.sublime-project",
+			 	"*.json"
+			],
+		},
+		
+	],
+	"settings":
+	{
+		"LSP":
+		{
+			"clangd":
+			{
+				"enabled": false,
+			},
+		},
+		
+	},
+
+	"build_systems":
+    [
+        {
+        		"working_dir":"$project_path",
+        		"name":"Build",
+            	"shell_cmd": "cmake -B build .",
+    			"selector": ["source.c","source.c++"],
+    			"file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)",
+    			"variants":
+    			[
+    				{
+    					"name":"Debug: Build & Run",
+    					"shell_cmd":"cmake --build build/ --config Debug && ./bin/Debug/TwoClocks",
+    				},
+
+    				{
+    					"name":"Release: Build & Run",
+    					"shell_cmd":"cmake --build build/ --config Release && ./bin/Release/TwoClocks",
+    				},
+    				
+    				
+			],
+
+        }
+	],
+
+
+	
+
+	
+	
+}

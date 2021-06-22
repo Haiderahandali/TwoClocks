@@ -1,0 +1,1840 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"P",
+				"PROPERTIES"
+			],
+			[
+				"RUNTIME",
+				"RUNTIME_OUTPUT_DIRECTORY_<CONFIG>"
+			],
+			[
+				"CMAKE_CURRENT",
+				"CMAKE_CURRENT_LIST_DIR"
+			],
+			[
+				"target_compile",
+				"target_compile_options"
+			],
+			[
+				"MAC",
+				"MACOSX_BUNDLE"
+			],
+			[
+				"proec",
+				"project"
+			],
+			[
+				"cmake",
+				"cmake_minimum_required"
+			],
+			[
+				"AU",
+				"AUDIO_TYPE"
+			],
+			[
+				"clo",
+				"clockBgRecTDest"
+			],
+			[
+				"SDL_",
+				"SDL_BlitSurface"
+			],
+			[
+				"bm",
+				"bmp_file_t"
+			],
+			[
+				"col",
+				"colonRectDest"
+			],
+			[
+				"COLO",
+				"COLON_WIDTH"
+			],
+			[
+				"colorest",
+				"colonRectsrc"
+			],
+			[
+				"GLYPH_C",
+				"GLYPH_COLON"
+			],
+			[
+				"bmp",
+				"bmpBg"
+			],
+			[
+				"SDL_Craete",
+				"SDL_CreateRGBSurfaceFrom"
+			],
+			[
+				"gCLock",
+				"gClockTwoTimer"
+			],
+			[
+				"Clock",
+				"ClockTwoRect"
+			],
+			[
+				"g",
+				"gClockTwoTimer"
+			],
+			[
+				"glc",
+				"gClockTwoTimer"
+			],
+			[
+				"gClock",
+				"gClockTwoTimer"
+			],
+			[
+				"time",
+				"gClockOneTimer"
+			],
+			[
+				"gwi",
+				"gWindowSurface"
+			],
+			[
+				"bg",
+				"bgColor"
+			],
+			[
+				"Draw",
+				"DrawCircle"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"gwind",
+				"gWindowSurface"
+			],
+			[
+				"Uint",
+				"Uint32"
+			],
+			[
+				"GLY",
+				"GLYPH_WIDTH"
+			],
+			[
+				"SC",
+				"SCREEN_HEIGHT"
+			],
+			[
+				"gWind",
+				"gWindowSurface"
+			],
+			[
+				"dest",
+				"destSurface"
+			],
+			[
+				"gly",
+				"glyphRect"
+			],
+			[
+				"GL",
+				"GLYPH_HEIGHT"
+			],
+			[
+				"b",
+				"bpp"
+			],
+			[
+				"SLD_Create",
+				"SDL_CreateRGBSurfaceFrom"
+			],
+			[
+				"sie",
+				"size_t"
+			],
+			[
+				"uint",
+				"uint8_t"
+			],
+			[
+				"BITS_PER_",
+				"BMP_BITS_PER_PIXEL_OFFSET"
+			],
+			[
+				"ela",
+				"timeElapsed"
+			],
+			[
+				"gwid",
+				"gWindow"
+			],
+			[
+				"SCR",
+				"SCREEN_HEIGHT"
+			],
+			[
+				"SDL_M",
+				"SDL_MapRGBA"
+			],
+			[
+				"glyh",
+				"glyphRect"
+			],
+			[
+				"GLI",
+				"GLYPH_WIDTH"
+			],
+			[
+				"stdi",
+				"stdio.h"
+			],
+			[
+				"BMP",
+				"BMP_PATH"
+			],
+			[
+				"uin",
+				"unsigned"
+			],
+			[
+				"copy",
+				"copyDest"
+			],
+			[
+				"Day",
+				"day5"
+			],
+			[
+				"data",
+				"pixelDataPointer"
+			],
+			[
+				"padded",
+				"paddedWidth"
+			],
+			[
+				"window",
+				"windowSurface"
+			],
+			[
+				"padd",
+				"paddedWidth"
+			],
+			[
+				"math",
+				"math.h"
+			],
+			[
+				"BMP_HE",
+				"BMP_HEIGHT_SIZE"
+			],
+			[
+				"BMP_HIEGHT",
+				"BMP_HEIGHT_OFFSET"
+			],
+			[
+				"BMP_WIDTH",
+				"BMP_WIDTH_OFFSET"
+			],
+			[
+				"wind",
+				"windowRect"
+			],
+			[
+				"SCREE",
+				"SCREEN_HEIGHT"
+			],
+			[
+				"EX",
+				"EXCLUDE_FROM_ALL"
+			],
+			[
+				"asser",
+				"assert.h"
+			],
+			[
+				"pri",
+				"printf"
+			],
+			[
+				"align",
+				"alignas"
+			],
+			[
+				"Uin",
+				"Uint32"
+			],
+			[
+				"stdal",
+				"stdalign.h"
+			],
+			[
+				"SDL_format",
+				"SDL_PixelFormat"
+			],
+			[
+				"cmake_current",
+				"CMAKE_CURRENT_LIST_DIR"
+			],
+			[
+				"windwfa",
+				"windowSurface"
+			],
+			[
+				"SCREEN",
+				"SCREEN_HEIGHT"
+			],
+			[
+				"SDL_Render",
+				"SDL_RenderPresent"
+			],
+			[
+				"SDL_SetRender",
+				"SDL_SetRenderDrawColor"
+			],
+			[
+				"SDL_Fillrect",
+				"SDL_RenderFillRect"
+			],
+			[
+				"EP",
+				"EP0"
+			],
+			[
+				"DICE_",
+				"DICE_SIZE"
+			],
+			[
+				"Dice",
+				"DiceC"
+			],
+			[
+				"target",
+				"target_link_libraries"
+			],
+			[
+				"SDL2",
+				"SDL2_INCLUDE_DIR"
+			],
+			[
+				"DIce",
+				"DiceC"
+			],
+			[
+				"target_compil",
+				"target_compile_options"
+			],
+			[
+				"C",
+				"CFLAGS"
+			],
+			[
+				"libSD",
+				"libSDL2"
+			],
+			[
+				"inc",
+				"INCLUDE"
+			],
+			[
+				"curr",
+				"currentCircle"
+			],
+			[
+				"Circle",
+				"CircleColor"
+			],
+			[
+				"adu",
+				"Raduis"
+			],
+			[
+				"print",
+				"printTimerCount"
+			],
+			[
+				"gWin",
+				"gWindowSurface"
+			],
+			[
+				"gWi",
+				"gWindow"
+			],
+			[
+				"de",
+				"deltaTime"
+			],
+			[
+				"fram",
+				"frameTime"
+			],
+			[
+				"ma",
+				"main"
+			],
+			[
+				"stin",
+				"stringWithFormat"
+			],
+			[
+				"class",
+				"getObjcClassFromString"
+			],
+			[
+				"gets",
+				"getObjcClassFromString"
+			],
+			[
+				"stid",
+				"stdio.h"
+			],
+			[
+				"string",
+				"StringFormat"
+			],
+			[
+				"bui",
+				"build_run"
+			],
+			[
+				"st",
+				"Str"
+			],
+			[
+				"sel",
+				"getSelectorUIDfromString"
+			],
+			[
+				"sele",
+				"getSelectorUIDfromString"
+			],
+			[
+				"sdi",
+				"stdio.h"
+			],
+			[
+				"clas",
+				"class_ptr"
+			],
+			[
+				"msg",
+				"msgPtr"
+			],
+			[
+				"def",
+				"define"
+			],
+			[
+				"mai",
+				"main"
+			],
+			[
+				"__",
+				"__builtin_printf"
+			],
+			[
+				"pr",
+				"printf"
+			],
+			[
+				"int",
+				"input"
+			],
+			[
+				"sti",
+				"stdio.h"
+			],
+			[
+				"prt",
+				"prints"
+			],
+			[
+				"verte",
+				"vertices"
+			],
+			[
+				"texu",
+				"texture1"
+			],
+			[
+				"texutre",
+				"textureID"
+			],
+			[
+				"texture",
+				"texture1"
+			],
+			[
+				"tex",
+				"texture2"
+			],
+			[
+				"generate",
+				"generateVertexData"
+			],
+			[
+				"str",
+				"string_size"
+			],
+			[
+				"am",
+				"ambient"
+			],
+			[
+				"ambe",
+				"ambientStrength"
+			],
+			[
+				"light",
+				"lightPos"
+			],
+			[
+				"set",
+				"setMat4(glm::mat4 mat, const char *str) const\t  void"
+			],
+			[
+				"cube",
+				"cubeVAO\t  unsigned int"
+			],
+			[
+				"shader",
+				"shader\t  Shader"
+			],
+			[
+				"farg",
+				"FragColor"
+			],
+			[
+				"frag",
+				"FragColor"
+			],
+			[
+				"t",
+				"t\t  double"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"fmt ",
+				"Preferences: Fmt Settings"
+			],
+			[
+				"fmt se",
+				"Preferences: Fmt Settings"
+			],
+			[
+				"lsp",
+				"Preferences: LSP Settings"
+			],
+			[
+				"fmt sett",
+				"Preferences: Fmt Settings"
+			],
+			[
+				"down",
+				"Sync Settings: Download"
+			],
+			[
+				"fmt set",
+				"Preferences: Fmt Settings"
+			],
+			[
+				"sync setting",
+				"Sync Settings: Create and Upload"
+			],
+			[
+				"terminus theme",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"terminus shell",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"terminus tog",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"edit",
+				"Project: Edit Project"
+			],
+			[
+				"editp",
+				"Project: Edit Project"
+			],
+			[
+				"got ot ",
+				"HexViewer: Go to Offset"
+			],
+			[
+				"toggle hex",
+				"HexViewer: Toggle Hex View"
+			],
+			[
+				"got to ",
+				"HexViewer: Go to Offset"
+			],
+			[
+				"offset",
+				"HexViewer: Go to Offset"
+			],
+			[
+				"hex",
+				"HexViewer: Toggle Hex View"
+			],
+			[
+				"select colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"sele",
+				"UI: Select Theme"
+			],
+			[
+				"select",
+				"UI: Select Theme"
+			],
+			[
+				"set theme",
+				"UI: Select Theme"
+			],
+			[
+				"hexviewer",
+				"HexViewer: Reload Hex View"
+			],
+			[
+				"disable ",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"restart",
+				"LSP: Restart Servers"
+			],
+			[
+				"enable langae",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"enable ",
+				"Package Control: Enable Package"
+			],
+			[
+				"hex goto",
+				"HexViewer: Go to Offset"
+			],
+			[
+				"toglgle hex",
+				"HexViewer: Toggle Endianness (Big|Little)"
+			],
+			[
+				"hexvi",
+				"HexViewer: Toggle Hex View"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"disab",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"edp",
+				"Project: Edit Project"
+			],
+			[
+				"enalbe langa",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"enable langau",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"lsp sett",
+				"Preferences: LSP Settings"
+			],
+			[
+				"enable serve",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"enable ser",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"LSP res",
+				"LSP: Restart Servers"
+			],
+			[
+				"LSP setting",
+				"Preferences: LSP Settings"
+			],
+			[
+				"enable server",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"restart ",
+				"LSP: Restart Servers"
+			],
+			[
+				"edit por",
+				"Project: Edit Project"
+			],
+			[
+				"terminus tab",
+				"Terminus: Open Default Shell in Tab (View)"
+			],
+			[
+				"temrinus close a",
+				"Terminus: Close All"
+			],
+			[
+				"format",
+				"Fmt: Format Buffer"
+			],
+			[
+				"for",
+				"Fmt: Format Buffer"
+			],
+			[
+				"form",
+				"Fmt: Format Buffer"
+			],
+			[
+				"Fmt setting",
+				"Preferences: Fmt Settings"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"disable pac",
+				"Package Control: Disable Package"
+			],
+			[
+				"disbla",
+				"LSP: Disable Language Server Globally"
+			],
+			[
+				"disable langea",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"enable la",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"disalbe",
+				"LSP: Disable Language Server Globally"
+			],
+			[
+				"enable lang",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"LSP sett",
+				"Preferences: LSP Settings"
+			],
+			[
+				"lsp setting",
+				"Preferences: LSP Settings"
+			],
+			[
+				"install pak",
+				"Package Control: Install Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"enable langea",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"enable lange",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"terminus setting",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"UI theme termin",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"selet color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"format ",
+				"Clang Format: Format Selection"
+			],
+			[
+				"clang for",
+				"Clang Format: Format Selection"
+			],
+			[
+				"sync settings",
+				"Sync Settings: Create and Upload"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"tremove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remv",
+				"Package Control: Remove Package"
+			],
+			[
+				"select theme",
+				"UI: Select Theme"
+			],
+			[
+				"select color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall p",
+				"Package Control: Install Package"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"selet",
+				"UI: Select Theme"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"lsp dis",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"create pub",
+				"Gist: Create Public Gist"
+			],
+			[
+				"create ",
+				"Gist: Create Public Gist"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"restat",
+				"LSP: Restart Servers"
+			],
+			[
+				"select ui",
+				"UI: Select Theme"
+			],
+			[
+				"select ui co",
+				"UI: Select Color Scheme"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"select ui col",
+				"UI: Select Color Scheme"
+			],
+			[
+				"seelct ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"select uic",
+				"Sourcetrail: Set active Token"
+			],
+			[
+				"slecet ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"toggle SLP",
+				"LSP: Toggle Log Panel"
+			],
+			[
+				"lsp togll",
+				"LSP: Toggle Log Panel"
+			],
+			[
+				"UI",
+				"UI: Select Color Scheme"
+			],
+			[
+				"set ui",
+				"UI: Select Theme"
+			],
+			[
+				"set syntax glsl",
+				"Set Syntax: GLSL"
+			],
+			[
+				"enable b",
+				"Package Control: Enable Package"
+			],
+			[
+				"LSP",
+				"LSP: Toggle Log Panel"
+			],
+			[
+				"enable lsp",
+				"LSP: Enable Language Server in Project"
+			],
+			[
+				"eidt p",
+				"Project: Edit Project"
+			],
+			[
+				"edit p",
+				"Project: Edit Project"
+			],
+			[
+				"keb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"terminus",
+				"Terminus: Close All"
+			],
+			[
+				"binding",
+				"Preferences: Key Bindings"
+			],
+			[
+				"enable pacag",
+				"Package Control: Enable Package"
+			],
+			[
+				"ter",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"terminus ",
+				"Terminus: Open Default Shell in Panel"
+			],
+			[
+				"term",
+				"Terminus: Close All"
+			],
+			[
+				"termin",
+				"Terminus: Close All"
+			],
+			[
+				"clang format",
+				"Clang Format: Select Style"
+			],
+			[
+				"clang",
+				"Clang Format: Select Style"
+			],
+			[
+				"eanble",
+				"Package Control: Enable Package"
+			],
+			[
+				"enable pak",
+				"Package Control: Enable Package"
+			],
+			[
+				"temrinus",
+				"Terminus: Toggle Panel"
+			],
+			[
+				"close ter",
+				"Terminus: Close All"
+			],
+			[
+				"preference",
+				"Preferences: Settings"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"build",
+				"Build With: Debug"
+			],
+			[
+				"te",
+				"Terminus: Close All"
+			],
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"package resor",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"LSP disable",
+				"LSP: Disable Language Server Globally"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 109.0,
+		"history":
+		[
+			"clear",
+			"exit()",
+			"exit",
+			"print(\"hello\")",
+			"print hello",
+			"clear"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alia/dev/TwoClocks"
+	],
+	"file_history":
+	[
+		"/Users/alia/dev/TwoClocks/CMakeLists.txt",
+		"/Users/alia/.tmp/stringToInt",
+		"/Users/alia/.tmp/Dice/CMakeLists.txt",
+		"/Users/alia/.tmp/Dice/src/Day5/draw_circle.c",
+		"/Users/alia/.tmp/Dice/include/Day5/glyph.h",
+		"/Users/alia/.tmp/Dice/src/main.c",
+		"/Users/alia/.tmp/Dice/include/circle.h",
+		"/Users/alia/.tmp/Dice/src/circle.c",
+		"/Users/alia/.tmp/Dice/V_log.txt",
+		"/Users/alia/.tmp/together.c",
+		"/Users/alia/.tmp/Dice/src/Day5/day5.c",
+		"/Users/alia/.tmp/Dice/src/Day5/core.c",
+		"/Users/alia/.tmp/Dice/src/Day4/load_bmp_day4.c",
+		"/Users/alia/.tmp/Dice/include/Day5/load_bmp.h",
+		"/Users/alia/.tmp/Dice/src/Day4/bmp.c",
+		"/Users/alia/dania.py",
+		"/Users/alia/.tmp/Dice/include/Day4/text_render.h",
+		"/Users/alia/.tmp/Dice/src/Day4/textRender.c",
+		"/Users/alia/dev/Alarm/src/main.cpp",
+		"/Users/alia/.tmp/Dice/SDL2/src/video/SDL_bmp.c",
+		"/Users/alia/.tmp/Dice/pratice.sublime-project",
+		"/Users/alia/.tmp/Dice/src/Day5/load_bmp.c",
+		"/Users/alia/.tmp/Dice/src/Day5/convert_time.c",
+		"/Users/alia/.tmp/Dice/include/Day5/print_string.h",
+		"/Users/alia/.tmp/Dice/src/Day5/print_string.c",
+		"/Users/alia/.tmp/Dice/include/Day4/bmp.h",
+		"/Users/alia/.tmp/Dice/test.bmp",
+		"/Users/alia/.tmp/Dice/src/Day4/load_bmp.c",
+		"/Users/alia/.tmp/Dice/load_bmp.c",
+		"/Users/alia/.tmp/Dice/src/Day5/loadBMP.c",
+		"/Users/alia/.tmp/Dice/include/Day5/core.h",
+		"/Users/alia/.tmp/Dice/include/core.h",
+		"/Users/alia/.tmp/Dice/src/Day5/core.h",
+		"/Users/alia/.tmp/Dice/include/Day5/bool.h",
+		"/Users/alia/.tmp/Dice/src/Day3/main.c",
+		"/Users/alia/.tmp/Dice/.gitignore",
+		"/Users/alia/.tmp/Dice/text_render.h",
+		"/Users/alia/.tmp/Dice/include/Day4/textRender.h",
+		"/Users/alia/.tmp/Dice/src/Day5",
+		"/Users/alia/.tmp/ceil.c",
+		"/Users/alia/.tmp/ceil",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/math.h",
+		"/Users/alia/.tmp/Dice/fmap.bmp",
+		"/Users/alia/.tmp/load_bmp.c",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/sys/_types/_uintptr_t.h",
+		"/Users/alia/.tmp/Dice/SDL2/include/SDL_pixels.h",
+		"/Users/alia/.tmp/Attemp/Attemp.c",
+		"/Users/alia/.tmp/Attemp.c",
+		"/Users/alia/Downloads/scope_script.txt",
+		"/Users/alia/.tmp/Dice/src/dice.cpp",
+		"/Users/alia/.tmp/Dice/include/dice.hpp",
+		"/Users/alia/.tmp/Dice/src/board.cpp",
+		"/Users/alia/.tmp/Dice/include/src/dice.c",
+		"/Users/alia/.tmp/Dice/src/dice.",
+		"/Users/alia/.tmp/Dice/src/dice.c",
+		"/Users/alia/.tmp/Dice/include/dice.h",
+		"/Users/alia/.tmp/Dice/Makefile",
+		"/Users/alia/.tmp/Dice/Some.make",
+		"/Users/alia/.tmp/Dice/SDL2/Makefile.minimal",
+		"/Users/alia/Downloads/Script for ADS.txt",
+		"/Users/alia/dev/Alarm/CMakeLists.txt",
+		"/Users/alia/dev/Alarm/SDL2/CMakeLists.txt",
+		"/Users/alia/dev/Alarm/src/pch.hpp",
+		"/Users/alia/dev/Alarm/Makefile",
+		"/Users/alia/dev/Alarm/main.cpp",
+		"/Users/alia/dev/Alarm/Timer.h",
+		"/Users/alia/.tmp/line.cpp",
+		"/Users/alia/.tmp/file.f",
+		"/Users/alia/.tmp/fmt.c",
+		"/Users/alia/.tmp/audio/generateSoundWave.c",
+		"/Users/alia/Library/Application Support/Sublime Text/Packages/User/clang_format.sublime-settings",
+		"/Users/alia/Desktop/Script for Today's Lecture",
+		"/Users/alia/Library/Application Support/Sublime Text/Packages/User/clang_format_custom.sublime-settings",
+		"/Users/alia/.tmp/test.cpp",
+		"/Users/alia/.tmp/audio/API.c",
+		"/Users/alia/.tmp/audio/audio.m",
+		"/Users/alia/.tmp/audio/Makefile",
+		"/Users/alia/.tmp/audio/myTypes.h",
+		"/Users/alia/.tmp/getcwd.c",
+		"/Users/alia/.tmp/audio/make",
+		"/Users/alia/.tmp/audio/.gitignore",
+		"/Library/Developer/CommandLineTools/SDKs/MacOSX11.1.sdk/usr/include/objc/message.h",
+		"/Users/alia/.tmp/audio/wrapper.",
+		"/Users/alia/.tmp/audio/log.h",
+		"/Users/alia/.tmp/audio/audio.cpp",
+		"/Users/alia/.tmp/stupidScreen/CMacs/View.c",
+		"/Users/alia/.tmp/stupidScreen/CMacs/AppDelegate.c",
+		"/Users/alia/.tmp/stupidScreen/CMacs/CMacsTypes.h",
+		"/Users/alia/.tmp/stupidScreen/CMacs/CMacsTypes.c",
+		"/Users/alia/.tmp/myTypes.h",
+		"/Users/alia/.tmp/hallow.c",
+		"/Users/alia/.tmp/stupidScreen/README.md",
+		"/Users/alia/.tmp/stupidScreen/CMacs/CMacsTypes.h.gch",
+		"/Users/alia/.tmp/test.c",
+		"/Users/alia/.tmp/log.c",
+		"/Users/alia/.tmp/imploc.c",
+		"/Users/alia/.tmp/audio.cpp",
+		"/Users/alia/.tmp/objc.m",
+		"/Users/alia/.tmp/output.txt",
+		"/Users/alia/Desktop/What is needed by Framework class",
+		"/Users/alia/.tmp/main.c",
+		"/Users/alia/.tmp/HR",
+		"/Users/alia/dev/openGL/src/main.cpp",
+		"/Users/alia/.tmp/loop.c",
+		"/Users/alia/dev/openGL/include/util.h",
+		"/Users/alia/.tmp/log.txt",
+		"/Users/alia/dev/openGL/include/Shader.hpp",
+		"/Users/alia/dev/openGL/src/shaders/vertextshader.glsl",
+		"/Users/alia/.tmp/test.s",
+		"/Users/alia/dev/openGL/CMakeLists.txt",
+		"/Users/alia/dev/openGL/src/stb_image.cpp",
+		"/Users/alia/Library/Application Support/Sublime Text 3/Packages/Clang Format/clang_format_custom.sublime-settings",
+		"/Users/alia/Library/Application Support/Sublime Text 3/Packages/User/clang_format.sublime-settings",
+		"/Users/alia/Library/Application Support/Sublime Text 3/Packages/Clang Format/clang_format.sublime-settings",
+		"/Users/alia/dev/openGL/OpenGL.sublime-project",
+		"/Users/alia/Library/Application Support/Sublime Text 3/Packages/User/SyncSettings.sublime-settings",
+		"/Users/alia/dev/openGL/include/stb_image.h",
+		"/Users/aliabdulkareem/dev/openGL/OpenGL.sublime-project",
+		"/Users/aliabdulkareem/dev/openGL/src/shaders/vertextshader.glsl",
+		"/Users/aliabdulkareem/dev/openGL/include/Camera.hpp",
+		"/Users/aliabdulkareem/spot_the_bug.cpp",
+		"/Users/aliabdulkareem/Library/Application Support/Sublime Text 3/Packages/Gist/Gist.sublime-settings",
+		"/Users/aliabdulkareem/Library/Application Support/Sublime Text 3/Packages/User/Gist.sublime-settings",
+		"/Users/aliabdulkareem/dev/openGL/include/glm/gtc/matrix_transform.inl",
+		"/Users/aliabdulkareem/dev/openGL/include/glm/gtc/matrix_transform.hpp",
+		"/Users/aliabdulkareem/dev/engine_from_scratch/Engine_A/src/Platform/MacOS/MacWindow.cpp",
+		"/Users/aliabdulkareem/dev/engine_from_scratch/Engine_A/src/Application.cpp",
+		"/Users/aliabdulkareem/dev/openGL/include/util.h"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 192.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 57.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "TwoClocks.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"cmake",
+				"CMakeLists.txt"
+			],
+			[
+				"core",
+				"src/Day5/core.c"
+			],
+			[
+				"core.h",
+				"include/Day5/core.h"
+			],
+			[
+				"print",
+				"include/Day5/print_time.h"
+			],
+			[
+				"pint",
+				"src/Day5/print_time.c"
+			],
+			[
+				"core.c",
+				"src/Day5/core.c"
+			],
+			[
+				"time",
+				"src/Day5/print_time.c"
+			],
+			[
+				"gly",
+				"src/Day5/glyph.c"
+			],
+			[
+				"day",
+				"src/Day5/day5.c"
+			],
+			[
+				"main",
+				"src/main.c"
+			],
+			[
+				"v",
+				"V_log.txt"
+			],
+			[
+				"circle",
+				"src/circle.c"
+			],
+			[
+				"load",
+				"src/Day4/load_bmp_day4.c"
+			],
+			[
+				"bmp.c",
+				"src/Day4/bmp.c"
+			],
+			[
+				"cma",
+				"CMakeLists.txt"
+			],
+			[
+				"core.",
+				"src/Day5/core.c"
+			],
+			[
+				"text",
+				"src/Day4/textRender.c"
+			],
+			[
+				"draw",
+				"src/Day5/draw_circle.c"
+			],
+			[
+				"SDL_bm",
+				"SDL2/src/video/SDL_bmp.c"
+			],
+			[
+				"tex",
+				"include/Day4/text_render.h"
+			],
+			[
+				"cak",
+				"CMakeLists.txt"
+			],
+			[
+				"load_m",
+				"src/Day5/load_bmp.c"
+			],
+			[
+				"bmp",
+				"include/Day4/bmp.h"
+			],
+			[
+				"laod",
+				"include/Day5/load_bmp.h"
+			],
+			[
+				"bmpc",
+				"src/Day4/bmp.c"
+			],
+			[
+				"test.",
+				"test.bmp"
+			],
+			[
+				"bmpc.",
+				"src/Day4/bmp.c"
+			],
+			[
+				"lapd",
+				"src/Day4/load_bmp.c"
+			],
+			[
+				"textre",
+				"src/Day4/textRender.c"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"camke",
+				"CMakeLists.txt"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"cake",
+				"CMakeLists.txt"
+			],
+			[
+				"main.",
+				"src/main.c"
+			],
+			[
+				"dice.h",
+				"include/dice.h"
+			],
+			[
+				"dice.c",
+				"src/dice.c"
+			],
+			[
+				"",
+				"include/util.h"
+			],
+			[
+				"glsl",
+				"src/shaders/vertextshader.glsl"
+			],
+			[
+				"shader.h",
+				"include/Shader.hpp"
+			],
+			[
+				"main.c",
+				"src/main.cpp"
+			],
+			[
+				"shader",
+				"include/Shader.hpp"
+			],
+			[
+				"ut",
+				"include/util.h"
+			],
+			[
+				"camera",
+				"include/Camera.hpp"
+			],
+			[
+				"cmaer",
+				"include/Camera.hpp"
+			],
+			[
+				"cmae",
+				"include/Camera.hpp"
+			],
+			[
+				"util",
+				"include/util.h"
+			],
+			[
+				"shade",
+				"include/Shader.hpp"
+			],
+			[
+				"glm",
+				"include/glm/glm.hpp"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"cmak",
+				"CMakeLists.txt"
+			],
+			[
+				"stb",
+				"include/stb_image.h"
+			],
+			[
+				"uti",
+				"include/util.h"
+			],
+			[
+				"glad",
+				"vendor/glad/include/glad/glad.h"
+			],
+			[
+				"test",
+				"test.txt"
+			],
+			[
+				"event",
+				"Engine_A/include/Engine/Event/Event.hpp"
+			],
+			[
+				"key",
+				"Engine_A/include/Engine/Event/KeyEvent.hpp"
+			],
+			[
+				"macwo",
+				"Engine_A/include/Platform/MacOS/MacWindow.hpp"
+			],
+			[
+				"keyp",
+				"Engine_A/include/Engine/Event/KeyEvent.hpp"
+			],
+			[
+				"san",
+				"src/SandboxApp.cpp"
+			],
+			[
+				"appli",
+				"Engine_A/include/Engine/Application.hpp"
+			],
+			[
+				"applcai",
+				"Engine_A/include/Engine/Event/ApplicationEvent.hpp"
+			],
+			[
+				"applc",
+				"Engine_A/src/Application.cpp"
+			],
+			[
+				"macwindo",
+				"Engine_A/src/Platform/MacOS/MacWindow.cpp"
+			],
+			[
+				"keyeve",
+				"Engine_A/include/Engine/Event/KeyEvent.hpp"
+			],
+			[
+				"appl",
+				"Engine_A/src/Application.cpp"
+			],
+			[
+				"event.",
+				"Engine_A/include/Engine/Event/Event.hpp"
+			],
+			[
+				"mouseee",
+				"Engine_A/include/Engine/Event/MouseEvent.hpp"
+			],
+			[
+				"winodw",
+				"Engine_A/include/Engine/Window.hpp"
+			],
+			[
+				"maco",
+				"Engine_A/include/Platform/MacOS/MacWindow.hpp"
+			],
+			[
+				"mac",
+				"Engine_A/src/Platform/MacOS/MacWindow.cpp"
+			],
+			[
+				"app",
+				"Engine_A/include/Engine/Application.hpp"
+			],
+			[
+				"window",
+				"Engine_A/include/Engine/Window.hpp"
+			],
+			[
+				"applica",
+				"Engine_A/include/Engine/Application.hpp"
+			],
+			[
+				"applic",
+				"Engine_A/include/Engine/Application.hpp"
+			],
+			[
+				"Event",
+				"Engine_A/include/Engine/Event/ApplicationEvent.hpp"
+			],
+			[
+				"applca",
+				"Engine_A/include/Engine/Application.hpp"
+			],
+			[
+				"event.hp",
+				"Engine_A/include/Engine/Event/Event.hpp"
+			],
+			[
+				"Mac",
+				"Engine_A/include/Platform/MacOS/MacWindow.hpp"
+			],
+			[
+				"event.h",
+				"Engine_A/include/Engine/Event/Event.hpp"
+			],
+			[
+				"window.h",
+				"Engine_A/include/Engine/Window.hpp"
+			],
+			[
+				"pch",
+				"Engine_A/include/Engine/pch.hpp"
+			],
+			[
+				"even",
+				"Engine_A/include/Engine/Event/Event.hpp"
+			],
+			[
+				"een",
+				"Engine_A/include/Engine.hpp"
+			],
+			[
+				"core.hp",
+				"Engine_A/include/Engine/Core.hpp"
+			],
+			[
+				"application",
+				"Engine_A/include/Engine/Application.hpp"
+			],
+			[
+				"snadbox",
+				"src/SandboxApp.cpp"
+			],
+			[
+				"log.hp",
+				"Engine_A/include/Engine/Log.hpp"
+			],
+			[
+				"Core.h",
+				"Engine_A/include/Engine/Core.hpp"
+			],
+			[
+				"log",
+				"log.txt"
+			],
+			[
+				"log.",
+				"log.txt"
+			],
+			[
+				"wn",
+				"Engine_A/include/Engine/Window.hpp"
+			],
+			[
+				"coreh",
+				"Engine_A/include/Engine/Core.hpp"
+			],
+			[
+				"window.",
+				"Engine_A/include/Engine/Window.hpp"
+			],
+			[
+				"log.h",
+				"Engine_A/include/Engine/Log.hpp"
+			],
+			[
+				"cmk",
+				"CMakeLists.txt"
+			],
+			[
+				"lg",
+				"Engine_A/src/Log.cpp"
+			],
+			[
+				"widno",
+				"Engine_A/include/Engine/Window.hpp"
+			],
+			[
+				"ph",
+				"Engine_A/include/Engine/pch.hpp"
+			],
+			[
+				"log.cp",
+				"Engine_A/src/Log.cpp"
+			],
+			[
+				"log.hpp",
+				"Engine_A/include/Engine/Log.hpp"
+			],
+			[
+				"log.t",
+				"log.txt"
+			],
+			[
+				"apl",
+				"Engine_A/include/Engine/Event/ApplicationEvent.hpp"
+			],
+			[
+				"log.c",
+				"Engine_A/src/Log.cpp"
+			],
+			[
+				"entry",
+				"Engine_A/include/Engine/Entry_Point.hpp"
+			],
+			[
+				"engine",
+				"Engine_A/include/Engine.hpp"
+			],
+			[
+				"enty",
+				"Engine_A/include/Engine/Entry_Point.hpp"
+			],
+			[
+				"Engine.hp",
+				"Engine_A/include/Engine.hpp"
+			],
+			[
+				"cmke",
+				"Engine_A/CMakeLists.txt"
+			],
+			[
+				"Appli",
+				"Engine_A/src/Application.cpp"
+			],
+			[
+				"appic",
+				"Engine_A/include/Engine/Application.hpp"
+			],
+			[
+				"Snad",
+				"src/SandboxApp.cpp"
+			],
+			[
+				"cmka",
+				"CMakeLists.txt"
+			],
+			[
+				"square",
+				"include/Square.hpp"
+			],
+			[
+				"input",
+				"include/InputManager.hpp"
+			],
+			[
+				"search.",
+				"include/Search.hpp"
+			],
+			[
+				"maz",
+				"Maze.txt"
+			],
+			[
+				"squrae.",
+				"src/Square.cpp"
+			],
+			[
+				"searchc",
+				"src/Search.cpp"
+			],
+			[
+				"search",
+				"include/Search.hpp"
+			],
+			[
+				"in",
+				"src/InputManager.cpp"
+			],
+			[
+				"square.cp",
+				"src/Square.cpp"
+			],
+			[
+				"maze",
+				"Maze.txt"
+			],
+			[
+				"squrae",
+				"src/Square.cpp"
+			],
+			[
+				"ina",
+				"src/InputManager.cpp"
+			],
+			[
+				"serach",
+				"include/Search.hpp"
+			],
+			[
+				"sqare",
+				"include/Square.hpp"
+			],
+			[
+				"search.hp",
+				"include/Search.hpp"
+			],
+			[
+				"sqa",
+				"include/Square.hpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
