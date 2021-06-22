@@ -40,7 +40,7 @@ bool init()
         return false;
     }
 
-    gWindow = SDL_CreateWindow("Day 5", SDL_WINDOWPOS_UNDEFINED,
+    gWindow = SDL_CreateWindow("Two Clocks", SDL_WINDOWPOS_UNDEFINED,
         SDL_WINDOWPOS_UNDEFINED,
         SCREEN_WIDTH,
         SCREEN_HEIGHT, SDL_WINDOW_SHOWN);

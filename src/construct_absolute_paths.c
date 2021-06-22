@@ -52,7 +52,7 @@ void ConstuctPaths(char* audioPath,
     char* appBg     = "/assets/relax_bg.bmp";
     char* audiopath = "/assets/clockAlarm.mp3";
 
-    int const bufsize = 512;
+    int bufsize = 512;
     char fullExecutablePath[bufsize];
     _NSGetExecutablePath(fullExecutablePath, &bufsize);
     int pathCharCount      = StringLength(fullExecutablePath);

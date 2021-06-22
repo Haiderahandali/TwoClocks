@@ -1,3 +1,4 @@
+![alt text](assets/background.png)
 
 # TwoClocks
 During my studies, I always find myself in a need to take breaks every certain period,
@@ -29,3 +30,6 @@ cmake -G Ninja "Multi-Config" -B build .
 #### The projects started to be 100 percent from scratch, however, due to the fact objc is being deprecated, I used SDL to encapsulate getting a window and flipping the buffers of the screen. and in audio.m I felt SDL code is a bit too long to just play a sound, so I wrote a C wrapper.
 
 #### circle.c and circle.h are not required, in the early version of the app, the text rendered was inside a circle, then It was replaced by bmp files; however, I enjoyed writing them, so I keep them for my own reference
+
+
+![alt text](assets/demo.gif)
