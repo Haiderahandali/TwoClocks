@@ -65,8 +65,20 @@ void ConstuctPaths(
     int bufsize = ABSOLUTE_PATH_BUFFER_SIZE;
     char fullExecutablePath[bufsize];
     _NSGetExecutablePath(fullExecutablePath, &bufsize);
-    int pathCharCount      = StringLength(fullExecutablePath);
+    int pathCharCount = StringLength(fullExecutablePath);
+
+    if (pathCharCount > ABSOLUTE_PATH_BUFFER_SIZE)
+    {
+        __builtin_printf("Error the path is too long\n");
+        return;
+    }
     int executableDirIndex = GetExeDirLength(fullExecutablePath, pathCharCount);
+
+    if (executableDirIndex > PATH_BUFFER_SIZE)
+    {
+        __builtin_printf("Error path is too long\n");
+        return;
+    }
 
     fullExecutablePath[executableDirIndex] = '\0';
 
