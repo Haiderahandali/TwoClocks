@@ -24,7 +24,8 @@ might not be optimal but I love to have some standrisation in naming
 ---
 ## Build 
 ```
-git clone --recursive https://github.com/Haiderahandali/TwoClocks.git
+git clone https://github.com/Haiderahandali/TwoClocks.git
+cd TwoClocks
 cmake -G "Ninja Multi-Config" -B build .
 ```
 

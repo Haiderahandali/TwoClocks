@@ -31,6 +31,8 @@ static char gFontPath[PATH_BUFFER_SIZE];
 static char gClockBackgroundPath[PATH_BUFFER_SIZE];
 static char gAudioPath[PATH_BUFFER_SIZE];
 
+static void* gSurfacesArray[3];
+
 bool IS_RUNNING = true;
 
 bool init()
@@ -107,8 +109,16 @@ void CloseApp()
     SDL_FreeSurface(gClockBgSurface);
     SDL_FreeSurface(gBackgroundSurface);
 
-    gWindow        = NULL;
-    gWindowSurface = NULL;
+    for (int i = 0; i < 3; ++i)
+    {
+        free(gSurfacesArray[i]);
+    }
+
+    gWindow            = NULL;
+    gWindowSurface     = NULL;
+    gClockBgSurface    = NULL;
+    gBackgroundSurface = NULL;
+    gFontSurface       = NULL;
 }
 
 void WaitLoop()
@@ -185,4 +195,8 @@ void LoadBMPS()
         (int)bmpClockBG.width, (int)bmpClockBG.height, (int)bmpClockBG.bpp,
         (int)(bmpClockBG.bpp * bmpClockBG.width / 8),
         Rmask, Gmask, Bmask, Amask);
+
+    gSurfacesArray[0] = bmpBg.pixelDataPointer;
+    gSurfacesArray[1] = bmpFont.pixelDataPointer;
+    gSurfacesArray[2] = bmpClockBG.pixelDataPointer;
 }
