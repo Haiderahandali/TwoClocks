@@ -1,4 +1,5 @@
-#pragma once
+#ifndef CONSTRUCT_PATH_H
+#define CONSTRUCT_PATH_H
 
 int StringLength(char const* path);
 void AppendTwoStrings(char* dest, char const* source);
@@ -9,5 +10,5 @@ void ConstuctPaths(
     char* audioPath,
     char* clockBackgroundPath,
     char* appBackGroundPath,
-    char* fontPath
-);
+    char* fontPath);
+#endif
