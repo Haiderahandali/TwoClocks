@@ -1,17 +1,8 @@
 #include "convert_string_to_int.h"
 
-static int IsNumber(char c)
+static int IsDigit(char c)
 {
-    if ((c >= '0') && (c <= '9'))
-    {
-        return 1;
-    }
-
-    else
-
-    {
-        return 0;
-    }
+    return ((c >= '0') && (c <= '9'));
 }
 
 int ConvertStringToInt(char const* str)
@@ -20,7 +11,7 @@ int ConvertStringToInt(char const* str)
     int result = 0;
     while ((currentCharacter = *str++))
     {
-        if (IsNumber(currentCharacter))
+        if (IsDigit(currentCharacter))
         {
             result *= 10;
             result += (currentCharacter - '0');
