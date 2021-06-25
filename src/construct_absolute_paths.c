@@ -1,7 +1,9 @@
 #include "construct_absolute_paths.h"
 
-#define PATH_BUFFER_SIZE 100
-#define ABSOLUTE_PATH_BUFFER_SIZE 512
+//someone said linux and windows usually uses 255 bytes for storing the file paths.
+
+#define PATH_BUFFER_SIZE 255
+#define ABSOLUTE_PATH_BUFFER_SIZE 255
 
 int StringLength(char const* path) // use strlen
 {

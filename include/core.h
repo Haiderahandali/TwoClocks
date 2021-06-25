@@ -6,8 +6,8 @@
 #define FAILED_TO_INIT_WINDOW NULL
 #define FAILED_TO_GET_WINDOW_SURFACE NULL
 
-int gFirstClockTime;
-int gSecondClockTime;
+extern int gFirstClockTime;
+extern int gSecondClockTime;
 #define SCREEN_WIDTH 640
 #define SCREEN_HEIGHT 480
 
@@ -16,8 +16,6 @@ typedef enum
     false,
     true
 } bool;
-
-extern SDL_Window* gWindow;
 
 extern SDL_Surface* gWindowSurface;
 extern SDL_Surface* gFontSurface;

@@ -7,13 +7,16 @@
 #define PATH_BUFFER_SIZE 100
 
 //Gets initalised in init()
-SDL_Window* gWindow;
+static SDL_Window* gWindow;
 
 SDL_Surface* gWindowSurface;
 SDL_Surface* gFontSurface;
 SDL_Surface* gClockBgSurface;
 
 static SDL_Surface* gBackgroundSurface = NULL;
+
+int gFirstClockTime;
+int gSecondClockTime;
 
 Uint32 start;
 Uint32 previousTime;
