@@ -18,11 +18,11 @@ static SDL_Surface* gBackgroundSurface = NULL;
 int gFirstClockTime;
 int gSecondClockTime;
 
-Uint32 start;
-Uint32 previousTime;
+static Uint32 start;
+static Uint32 previousTime;
 
-int gClockTwoTimer;
-int gClockOneTimer;
+static int gClockTwoTimer;
+static int gClockOneTimer;
 
 static bool useClockOne = true;
 
