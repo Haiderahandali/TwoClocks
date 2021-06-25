@@ -57,7 +57,7 @@ circle.c and circle.h are not required, in the early version of the app, the tex
 ## TODO
 
 1. Extend the alarm for more than 1 hour
-2. Added OS keybindings to run it within
+2. Added OS keybindings to run it in a more convenient manner
 3. Remove ojbc code completely and replace it with nice pure C code.
 4. Add customizibility, such as font's color, background, etc.
 5. If I am lucky enough, I would add it to a bundle and a full gui interface

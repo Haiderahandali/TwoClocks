@@ -10,6 +10,5 @@
 extern SDL_Surface* gClockBgSurface;
 
 void DrawClock(SDL_Surface* destSurface, SDL_Rect startRect, int minutes, int seconds);
-static SDL_Rect clockBgRectSrc = { 0, 0, 256, 100 };
 
 #endif

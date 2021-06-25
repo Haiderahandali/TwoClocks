@@ -5,6 +5,8 @@
 #define XPADDING 25
 #define YPADDING 15
 
+static SDL_Rect clockBgRectSrc = { 0, 0, 256, 100 };
+
 void DrawClock(SDL_Surface* destSurface, SDL_Rect startRect, int minutes, int seconds)
 {
 
