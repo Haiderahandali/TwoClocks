@@ -7,7 +7,6 @@
 #define PADDING_BETWEEN_NUMBERS 5
 #define COLON_WIDTH 20
 #define COLON_HEIGHT 70
-extern SDL_Surface* gClockBgSurface;
 
 void DrawClock(SDL_Surface* destSurface, SDL_Rect startRect, int minutes, int seconds);
 

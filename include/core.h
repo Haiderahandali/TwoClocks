@@ -1,6 +1,7 @@
 #ifndef CORE_H
 #define CORE_H
 #include "SDL.h"
+#include "sdl_surfaces_header.h"
 
 #define SDL_SUCCESS 0
 #define FAILED_TO_INIT_WINDOW NULL
@@ -19,10 +20,6 @@ typedef _Bool bool;
 //     false,
 //     true
 // } bool;
-
-extern SDL_Surface* gWindowSurface;
-extern SDL_Surface* gFontSurface;
-extern SDL_Surface* gClockBgSurface;
 
 extern bool IS_RUNNING;
 

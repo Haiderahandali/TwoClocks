@@ -4,6 +4,7 @@ I moved to using bitmaps so it is no longer used,
 however I keep it since I wrote mid-point algorithm in it
 */
 #include "draw_circle.h"
+#include "sdl_surfaces_header.h"
 
 extern SDL_Surface* gWindowSurface;
 extern Uint32 glyphColor;

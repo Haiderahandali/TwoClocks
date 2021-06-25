@@ -1,4 +1,5 @@
 #include "print_time.h"
+#include "sdl_surfaces_header.h"
 
 //tweaked values for centering the font
 //inside the clock

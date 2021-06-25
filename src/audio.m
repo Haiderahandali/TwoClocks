@@ -6,9 +6,11 @@ void PlayAlarm(char* gAudioPath);
 
 void PlayAlarm(char* gAudioPath)
 {
-	NSString *audioPath = [[NSString alloc]initWithCString:gAudioPath encoding:NSASCIIStringEncoding];
-	NSSound *sound = [[NSSound alloc] initWithContentsOfFile:audioPath  byReference:NO];
-
-	[sound play];
-	[sound release];
+	@autoreleasepool
+	{
+    	NSString *audioPath = [[NSString alloc]initWithCString:gAudioPath encoding:NSASCIIStringEncoding];
+		NSSound *sound = [[NSSound alloc] initWithContentsOfFile:audioPath  byReference:NO];
+		[sound play];
+	}
+	
 }

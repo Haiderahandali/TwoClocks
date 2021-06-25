@@ -1,4 +1,5 @@
 #include "glyph.h"
+#include "sdl_surfaces_header.h"
 
 void PutGlyphOnSurface(SDL_Surface* destSurface, Uint8 glyphIndex, SDL_Rect destRect)
 {
@@ -13,6 +14,5 @@ void PutGlyphOnSurface(SDL_Surface* destSurface, Uint8 glyphIndex, SDL_Rect dest
         gFontSurface,
         &glyphRect,
         destSurface,
-        &destRect
-    );
+        &destRect);
 }

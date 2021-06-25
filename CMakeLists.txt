@@ -43,15 +43,15 @@ target_compile_options(commongWarnings
     INTERFACE "-Wmissing-prototypes"
     INTERFACE "-Wno-missing-braces"
     INTERFACE "-Werror"
-    INTERFACE "-Wno-deprecated"
-    INTERFACE "-fsanitize=address"
-    INTERFACE "-fno-omit-frame-pointer" # only because apple deprecated tons of things
+    INTERFACE "-Wno-deprecated" # only because apple deprecated tons of things
+    # INTERFACE "-fsanitize=address"
+    # INTERFACE "-fno-omit-frame-pointer" 
 )
 
-target_link_options(commongWarnings
+# target_link_options(commongWarnings
 
-	INTERFACE "-fsanitize=address"
-    INTERFACE "-fno-omit-frame-pointer")
+# 	INTERFACE "-fsanitize=address"
+#     INTERFACE "-fno-omit-frame-pointer")
 
 
 target_include_directories(TwoClocks PRIVATE include)

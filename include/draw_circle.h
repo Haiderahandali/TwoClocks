@@ -2,7 +2,6 @@
 #define DRAW_CIRCLE_H
 #include "SDL.h"
 
-extern SDL_Surface* gWindowSurface;
 void DrawCircle(int Cx, int Cy, int radius);
 void DrawPixel(int x, int y);
 void DrawDisk(int x, int y, int radius);
