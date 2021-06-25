@@ -11,11 +11,14 @@ extern int gSecondClockTime;
 #define SCREEN_WIDTH 640
 #define SCREEN_HEIGHT 480
 
-typedef enum
-{
-    false,
-    true
-} bool;
+#define true 1
+#define false 0
+typedef _Bool bool;
+// typedef enum
+// {
+//     false,
+//     true
+// } bool;
 
 extern SDL_Surface* gWindowSurface;
 extern SDL_Surface* gFontSurface;
