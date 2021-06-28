@@ -23,9 +23,12 @@ add_executable(TwoClocks
 	src/print_time.c
 	src/core.c
 	src/convert_string_to_int.c
-	src/audio.m
 	src/construct_absolute_paths.c)
 
+add_library(Audio src/audio.m)
+
+target_compile_options(Audio
+	PRIVATE "-fobjc-arc")
 
 
 add_library(commongWarnings INTERFACE)
@@ -44,18 +47,23 @@ target_compile_options(commongWarnings
     INTERFACE "-Wno-missing-braces"
     INTERFACE "-Werror"
     INTERFACE "-Wno-deprecated" # only because apple deprecated tons of things
-    # INTERFACE "-fsanitize=address"
-    # INTERFACE "-fno-omit-frame-pointer" 
+    INTERFACE "-fsanitize=address"
+    INTERFACE "-fno-omit-frame-pointer" 
 )
 
-# target_link_options(commongWarnings
+target_link_options(commongWarnings
 
-# 	INTERFACE "-fsanitize=address"
-#     INTERFACE "-fno-omit-frame-pointer")
+	INTERFACE "-fsanitize=address"
+    INTERFACE "-fno-omit-frame-pointer")
 
+target_link_libraries(Audio
+	PRIVATE commongWarnings)
 
 target_include_directories(TwoClocks PRIVATE include)
 target_include_directories(TwoClocks PRIVATE ${SDL2_INCLUDE_DIR})
+
+target_include_directories(Audio PRIVATE include)
+
 
 
 target_link_libraries(TwoClocks
@@ -63,6 +71,7 @@ target_link_libraries(TwoClocks
 	PRIVATE SDL2
 	PRIVATE "-framework AppKit" #for playing Audio
 	PRIVATE commongWarnings
+	PRIVATE Audio
 )
 
 set_target_properties(TwoClocks PROPERTIES

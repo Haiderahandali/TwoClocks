@@ -3,6 +3,7 @@
 #include "glyph.h"
 #include "print_time.h"
 #include "construct_absolute_paths.h"
+#include "audio.h"
 
 #define PATH_BUFFER_SIZE 100
 
@@ -34,7 +35,7 @@ static char gFontPath[PATH_BUFFER_SIZE];
 static char gClockBackgroundPath[PATH_BUFFER_SIZE];
 static char gAudioPath[PATH_BUFFER_SIZE];
 
-static void* gSurfacesArray[3];
+static void* gBmpArray[3];
 
 bool IS_RUNNING = true;
 
@@ -65,18 +66,25 @@ bool init()
         return false;
     }
 
+    //Timer initialising
     start        = SDL_GetTicks(); //initalise the time of our app
     previousTime = start;
 
     gClockOneTimer = gFirstClockTime;
     gClockTwoTimer = gSecondClockTime;
 
+    // constructing Absolute paths for assets (audio and images)
     ConstuctPaths(gAudioPath,
         gClockBackgroundPath,
         gBackgroundPath,
         gFontPath);
 
+    // initialise sound components
+    InitAudio(gAudioPath);
+
+    //load images in bmp format
     LoadBMPS();
+
     return true;
 }
 
@@ -107,14 +115,17 @@ void Render()
 
 void CloseApp()
 {
+
+    //freeing SDL components
     SDL_DestroyWindow(gWindow);
     SDL_FreeSurface(gFontSurface);
     SDL_FreeSurface(gClockBgSurface);
     SDL_FreeSurface(gBackgroundSurface);
 
+    //freeing bitmap files
     for (int i = 0; i < 3; ++i)
     {
-        free(gSurfacesArray[i]);
+        free(gBmpArray[i]);
     }
 
     gWindow            = NULL;
@@ -158,7 +169,7 @@ void UpdateTimeInSeconds(void)
             {
                 useClockOne    = false;
                 gClockOneTimer = gFirstClockTime;
-                PlayAlarm(gAudioPath);
+                PlayAlarm();
             }
         }
         else
@@ -167,7 +178,7 @@ void UpdateTimeInSeconds(void)
             {
                 useClockOne    = true;
                 gClockTwoTimer = gSecondClockTime;
-                PlayAlarm(gAudioPath);
+                PlayAlarm();
             }
         }
     }
@@ -199,7 +210,7 @@ void LoadBMPS()
         (int)(bmpClockBG.bpp * bmpClockBG.width / 8),
         Rmask, Gmask, Bmask, Amask);
 
-    gSurfacesArray[0] = bmpBg.pixelDataPointer;
-    gSurfacesArray[1] = bmpFont.pixelDataPointer;
-    gSurfacesArray[2] = bmpClockBG.pixelDataPointer;
+    gBmpArray[0] = bmpBg.pixelDataPointer;
+    gBmpArray[1] = bmpFont.pixelDataPointer;
+    gBmpArray[2] = bmpClockBG.pixelDataPointer;
 }

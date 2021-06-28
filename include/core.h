@@ -33,6 +33,4 @@ void UpdateTimeInSeconds(void);
 
 void LoadBMPS(void);
 
-void PlayAlarm(char* path);
-
 #endif
