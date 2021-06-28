@@ -7,3 +7,4 @@
 /bin
 /TwoClocks.sublime-workspace
 /compile_commands.json
+/valgrind-out.txt
